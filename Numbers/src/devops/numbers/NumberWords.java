@@ -29,9 +29,9 @@ public class NumberWords {
 		else if (number < 20) {
 			result= units[number];
 		}
-		//else if (number < 100) {
-			//return tens[number / 10] + ((number % 10 != 0) ? " " : "") + units[number % 10];
-		//}
+		else if (number < 100) {
+			return tens[number / 10] + ((number % 10 != 0) ? " " : "") + units[number % 10];
+		}
 		//else if (number < 1000) {
 			//return units[number / 100] + " Hundred" + ((number % 100 != 0) ? " " : "") + toWords(number % 100);
 	//	}
