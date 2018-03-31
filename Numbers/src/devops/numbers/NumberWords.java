@@ -20,8 +20,8 @@ public class NumberWords {
 	
 	public String toWords( int number ) {
 		String result = "" ;
-	//	if(number <0 || number >999)
-		//result = "Number out of range";
+	if(number <0 || number >999)
+		result = "Number out of range";
 		//throw new NumberFormatException("Number out of range");
 		
 		
