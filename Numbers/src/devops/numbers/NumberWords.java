@@ -20,21 +20,21 @@ public class NumberWords {
 	
 	public String toWords( int number ) {
 		String result = "" ;
-		if(number <0 || number >999)
-		result = "Number out of range";
+	//	if(number <0 || number >999)
+		//result = "Number out of range";
 		//throw new NumberFormatException("Number out of range");
 		
 		
 		
-		else if (number < 20) {
-			result= units[number];
-		}
-		else if (number < 100) {
-			return tens[number / 10] + ((number % 10 != 0) ? " " : "") + units[number % 10];
-		}
-		else if (number < 1000) {
-			return units[number / 100] + " Hundred" + ((number % 100 != 0) ? " " : "") + toWords(number % 100);
-		}
+		//else if (number < 20) {
+			//result= units[number];
+		//}
+		//else if (number < 100) {
+			//return tens[number / 10] + ((number % 10 != 0) ? " " : "") + units[number % 10];
+		//}
+		//else if (number < 1000) {
+			//return units[number / 100] + " Hundred" + ((number % 100 != 0) ? " " : "") + toWords(number % 100);
+	//	}
 
 		return result.trim() ;
 	}
