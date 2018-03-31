@@ -32,9 +32,9 @@ public class NumberWordsTests {
 		
 	}
 	
-	//@Test
-	//public void convertToWordsLessThanThousandGreaterThanNinetyNineValidResult() {
-		//Assert.assertEquals( "177", "One Hundred Seventy Seven", numberWords.toWords( 177 ) ) ;
+	@Test
+	public void convertToWordsLessThanThousandGreaterThanNinetyNineValidResult() {
+		Assert.assertEquals( "177", "One Hundred Seventy Seven", numberWords.toWords( 177 ) ) ;
 		
-	//}
+	}
 }
