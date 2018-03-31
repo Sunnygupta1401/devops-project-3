@@ -20,11 +20,11 @@ public class NumberWordsTests {
 		
 	}
 	
-	//@Test
-	//public void convertToWordsLessThanTwentyValidResult() {
-		//Assert.assertEquals( "7", "Seven", numberWords.toWords( 7 ) ) ;
+	@Test
+	public void convertToWordsLessThanTwentyValidResult() {
+		Assert.assertEquals( "7", "Seven", numberWords.toWords( 7 ) ) ;
 		
-//	}
+	}
 	
 	//@Test
 	//public void convertToWordsLessThanHundredGreaterThanNineteenValidResult() {
