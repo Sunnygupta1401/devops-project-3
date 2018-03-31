@@ -26,11 +26,11 @@ public class NumberWordsTests {
 		
 	}
 	
-	//@Test
-	//public void convertToWordsLessThanHundredGreaterThanNineteenValidResult() {
-		//Assert.assertEquals( "55", "Fifty Five", numberWords.toWords( 55 ) ) ;
+	@Test
+	public void convertToWordsLessThanHundredGreaterThanNineteenValidResult() {
+		Assert.assertEquals( "55", "Fifty Five", numberWords.toWords( 55 ) ) ;
 		
-	//}
+	}
 	
 	//@Test
 	//public void convertToWordsLessThanThousandGreaterThanNinetyNineValidResult() {
