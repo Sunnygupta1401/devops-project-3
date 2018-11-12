@@ -3,10 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        withAnt(installation: 'ant', jdk: 'LocalJDK') {
-          withAnt()
-        }
-
+        build 'package'
       }
     }
   }
