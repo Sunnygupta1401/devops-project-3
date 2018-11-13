@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         withAnt(installation: 'ant', jdk: 'defaultJDK') {
-          sh 'sh "ant test"'
+          sh 'ant test'
         }
 
       }
